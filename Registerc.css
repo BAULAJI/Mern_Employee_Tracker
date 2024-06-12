@@ -1,0 +1,53 @@
+.Regg
+{
+    width: 1480px;
+    height: 742px;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(https://www.mixedinamerica.org/wp-content/uploads/2018/08/image-background-color-5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 50px;
+}
+
+.reg{
+    width: 50%;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    border-bottom: 1px solid black;   
+}
+input{
+    padding: 20px;
+    border-radius: 24px;
+    
+}
+input:hover{
+    background-color: rgb(192, 190, 190);
+    transition: 0.4s;
+}
+input[type="text"]{
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid black;
+    border-radius: 24px;
+    width: 40%;
+}
+input[type=submit]:hover{
+transition: 0.4s;
+background-color: darkblue;
+}
+
+
+input[type=submit]{
+ background-color: #0056ff;
+ padding-top: 12px;
+ padding-bottom: 12px;
+ padding-left: 24px;
+ padding-right: 24px;
+ font-size:15px;
+ color:white;
+ border: none;
+}
